@@ -12,6 +12,6 @@ Inclán Aguilar Axel
 
       7°5
 
-## Expanding the ESLint configuration
+
 
 
