@@ -16,4 +16,4 @@ Su principal característica es permitir la exploración de los elementos quími
 
 ## Curso
 
-7°5
+7°5 Programación 
