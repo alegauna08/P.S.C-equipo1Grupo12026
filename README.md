@@ -1,17 +1,19 @@
-# Introduccion
+# Tabla Periódica Dinámica
 
-Les presentamos como un trabajo grupal para la escuela secundaria técnica N°1 de brandsen una página programada en react sobre una tabla periódica dinámica cuya mayor características es poder realizar combinaciones de elementos 
+## Introducción
 
-## Elaboradores y curso escolar 
+Este proyecto fue desarrollado como trabajo grupal para la Escuela Secundaria Técnica N.°1 de Brandsen.
 
-Fredes Villa Germán
+Se trata de una aplicación web creada con React que simula una tabla periódica dinámica e interactiva.
 
-Gauna Alejandro 
+Su principal característica es permitir la exploración de los elementos químicos de forma visual e interactiva, incluyendo la posibilidad de realizar combinaciones entre ellos.
 
-Inclán Aguilar Axel 
+## Integrantes del proyecto
 
-      7°5
+- Fredes Villa Germán  
+- Gauna Alejandro  
+- Inclán Aguilar Axel  
 
+## Curso
 
-
-
+7°5
