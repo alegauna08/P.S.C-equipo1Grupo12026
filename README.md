@@ -14,16 +14,16 @@ Su principal característica es permitir la exploración de los elementos quími
 - Inclán Aguilar Axel  
 
 # Tecnologia Usadas
-React
-Html
-Css
-Java Script
-Git Hub
+- React
+- Html
+- Css
+- Java Script
+- Git Hub
 
 ## Roles 
-Inclan Axel -Manager
-German Fedes -  Fronted
-Gauna Alejandro - Fronted
+- Inclan Axel -Manager
+- German Fedes -  Fronted
+- Gauna Alejandro - Fronted
 
 ## Curso
 7°5 Programación 
