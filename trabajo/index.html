@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AtomicLab | Periodic Table</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+              "on-primary": "#00315d",
+              "surface-bright": "#31394d",
+              "background": "#0b1326",
+              "on-tertiary-container": "#4b3500",
+              "secondary-container": "#00a572",
+              "tertiary": "#fabd34",
+              "surface-dim": "#0b1326",
+              "on-secondary-container": "#00311f",
+              "on-surface-variant": "#c1c7d3",
+              "on-error-container": "#ffdad6",
+              "on-secondary-fixed-variant": "#005236",
+              "tertiary-fixed": "#ffdea4",
+              "primary": "#a4c9ff",
+              "on-background": "#dae2fd",
+              "surface-variant": "#2d3449",
+              "error": "#ffb4ab",
+              "primary-fixed-dim": "#a4c9ff",
+              "on-secondary-fixed": "#002113",
+              "inverse-on-surface": "#283044",
+              "on-surface": "#dae2fd",
+              "surface-container-highest": "#2d3449",
+              "on-primary-container": "#003a6b",
+              "error-container": "#93000a",
+              "surface-tint": "#a4c9ff",
+              "on-error": "#690005",
+              "outline": "#8b919d",
+              "inverse-primary": "#0060ac",
+              "tertiary-container": "#d19900",
+              "surface": "#0b1326",
+              "primary-fixed": "#d4e3ff",
+              "secondary-fixed": "#6ffbbe",
+              "on-tertiary": "#412d00",
+              "on-primary-fixed": "#001c39",
+              "surface-container-low": "#131b2e",
+              "secondary-fixed-dim": "#4edea3",
+              "primary-container": "#60a5fa",
+              "on-primary-fixed-variant": "#004883",
+              "surface-container": "#171f33",
+              "on-tertiary-fixed-variant": "#5d4200",
+              "on-secondary": "#003824",
+              "secondary": "#4edea3",
+              "tertiary-fixed-dim": "#fabd34",
+              "on-tertiary-fixed": "#261900",
+              "outline-variant": "#414751",
+              "surface-container-high": "#222a3d",
+              "surface-container-lowest": "#060e20",
+              "inverse-surface": "#dae2fd"
+            },
+            "borderRadius": {
+              "DEFAULT": "0.125rem",
+              "lg": "0.25rem",
+              "xl": "0.5rem",
+              "full": "0.75rem"
+            },
+            "spacing": {
+              "container-margin": "24px",
+              "panel-padding": "2rem",
+              "grid-gap": "4px",
+              "cell-size": "64px"
+            },
+            "fontFamily": {
+              "headline-lg": ["Inter"],
+              "headline-md": ["Inter"],
+              "label-caps": ["JetBrains Mono"],
+              "body-md": ["Inter"],
+              "display-symbol": ["Inter"],
+              "element-symbol-grid": ["Inter"],
+              "atomic-number": ["JetBrains Mono"]
+            },
+            "fontSize": {
+              "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+              "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+              "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+              "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+              "display-symbol": ["64px", {"lineHeight": "1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+              "element-symbol-grid": ["18px", {"lineHeight": "1", "fontWeight": "600"}],
+              "atomic-number": ["10px", {"lineHeight": "1", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        selection: bg-primary/30;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body class="bg-background text-on-surface font-body-md">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
