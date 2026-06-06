@@ -1,0 +1,35 @@
+
+.periodic-grid {
+  display: grid;
+  grid-template-columns: repeat(18, minmax(64px, 1fr));
+  gap: 4px;
+}
+
+.element-cell {
+  aspect-ratio: 1/1;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.element-cell:hover {
+  z-index: 10;
+  transform: scale(1.1);
+}
+
+.glass-panel {
+  backdrop-filter: blur(20px);
+  background: rgba(19, 27, 46, 0.8);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #131b2e;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #414751;
+  border-radius: 10px;
+}
