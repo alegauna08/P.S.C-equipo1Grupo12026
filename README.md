@@ -29,13 +29,12 @@ Su principal característica es permitir la exploración de los elementos quími
 7°5 Programación 
 
 ## Requerimientos/Presupuesto
-| Recurso  |  Descripción   | Costo estimado |
-|----------|----------------|----------------|
-|Hardware  | computadora o  |                |
-|          | netbook        | Sin costo      |
-|          |                | (Ya disponible)|
-|Software  |  Visual studio | Sin costos     |
-|          |code y navegador|                |
-|          |      web       |                |
-|Otros     |   Conexion a   |    750 pesos   |
-|          |    internet    |     al mes     |
+| Recurso  |  Descripción   | Costo estimado  |
+|----------|----------------|-----------------|
+|Hardware  | computadora o  |    Sin costo    |
+|          |     netbook    | (Ya disponible) |
+|Software  |  Visual studio |                 |
+|          |code y navegador|    Sin costo    |
+|          |      web       |                 |
+|Otros     |   Conexion a   |    750 pesos    |
+|          |    internet    |     al mes      |
