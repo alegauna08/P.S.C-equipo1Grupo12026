@@ -1,40 +1,64 @@
-# Tabla Periódica Dinámica
+#  Tabla Periódica Dinámica
 
-## Introducción
+##  Introducción
 
-Este proyecto fue desarrollado como trabajo grupal para la Escuela Secundaria Técnica N.°1 de Brandsen.
+La **Tabla Periódica Dinámica** es una aplicación web desarrollada como proyecto grupal para la **Escuela Secundaria Técnica N.° 1 "Ingeniero José Rafael Cantón" de Brandsen**.
 
-Se trata de una aplicación web creada con React que simula una tabla periódica dinámica e interactiva.
+El objetivo del proyecto es ofrecer una forma visual e interactiva de explorar los elementos químicos de la tabla periódica. La aplicación permite consultar información de cada elemento y realizar combinaciones entre ellos, facilitando el aprendizaje de la química mediante una interfaz sencilla y dinámica.
 
-Su principal característica es permitir la exploración de los elementos químicos de forma visual e interactiva, incluyendo la posibilidad de realizar combinaciones entre ellos.
+---
 
-## Integrantes del proyecto
-- Fredes Villa Germán  
-- Gauna Alejandro  
-- Inclán Aguilar Axel  
+##  Integrantes
 
-# Tecnologia Usadas
+- Fredes Villa Germán
+- Gauna Alejandro
+- Inclán Aguilar Axel
+
+---
+
+##  Tecnologías utilizadas
+
 - React
-- Html
-- Css
-- Java Script
-- Git Hub
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+- Visual Studio Code
 
-## Roles 
-- Inclan Axel -Manager
-- German Fedes -  Fronted
-- Gauna Alejandro - Fronted
+---
 
-## Curso
-7°5 Programación 
+##  Roles del equipo
 
-## Requerimientos/Presupuesto
-| Recurso  |  Descripción   | Costo estimado  |
-|----------|----------------|-----------------|
-|Hardware  | computadora o  |    Sin costo    |
-|          |     netbook    | (Ya disponible) |
-|Software  |  Visual studio |                 |
-|          |code y navegador|    Sin costo    |
-|          |      web       |                 |
-|Otros     |   Conexion a   |    750 pesos    |
-|          |    internet    |     al mes      |
+| Integrante | Rol |
+|------------|-----|
+| Inclán Aguilar Axel | Project Manager |
+| Fredes Villa Germán | Desarrollador Frontend |
+| Gauna Alejandro | Desarrollador Frontend |
+
+---
+
+##  Curso
+
+**7.º Año - División 5.ª**  
+**Orientación: Programación**
+
+---
+
+##  Objetivos del proyecto
+
+- Representar la tabla periódica de forma interactiva.
+- Mostrar información detallada de cada elemento químico.
+- Permitir la combinación de elementos.
+- Aplicar conocimientos de React y desarrollo web.
+- Fomentar el trabajo colaborativo mediante Git y GitHub.
+
+---
+
+##  Tecnologías de desarrollo
+
+- IDE: Visual Studio Code
+- Control de versiones: Git
+- Repositorio: GitHub
+- Framework: React
+- Lenguajes: HTML, CSS y JavaScript
