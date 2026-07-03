@@ -6,6 +6,8 @@ La **Tabla Periódica Dinámica** es una aplicación web desarrollada como proye
 
 El objetivo del proyecto es ofrecer una forma visual e interactiva de explorar los elementos químicos de la tabla periódica. La aplicación permite consultar información de cada elemento y realizar combinaciones entre ellos, facilitando el aprendizaje de la química mediante una interfaz sencilla y dinámica.
 
+Puedes ver la pagina en: **https://p-s-c-equipo1-grupo12026.vercel.app/**
+
 ---
 
 ##  Integrantes
