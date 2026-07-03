@@ -1,0 +1,168 @@
+.elemento-celda {
+  width: 70px;
+  height: 70px;
+  padding: 4px;
+
+  border: 1px solid #444;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  cursor: pointer;
+
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.elemento-celda:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.numero {
+  width: 100%;
+  font-size: 11px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.simbolo {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.nombre {
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.elemento-celda:active {
+  transform: scale(0.96);
+}.leyenda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.leyenda div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.color {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+/* Colores */
+.metal-alcalino { background: #f97316; }
+.metal-alcalinoterreo { background: #facc15; }
+.metal-transicion { background: #22c55e; }
+.metal-post-transicion { background: #94a3b8; }
+.metaloide { background: #14b8a6; }
+.no-metal { background: #38bdf8; }
+.halogeno { background: #ef4444; }
+.gas-noble { background: #3b82f6; }
+.lantanido { background: #8b5cf6; }
+.actinido { background: #c026d3; }
+
+
+.detalle {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 380px;
+    height: 100vh;
+
+    padding: 25px;
+    overflow-y: auto;
+
+    color: white;
+    box-shadow: -6px 0 15px rgba(0, 0, 0, 0.35);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.detalle h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(255,255,255,.3);
+}
+
+.detalle p {
+    margin: 12px 0;
+    padding: 8px 12px;
+    background: rgba(255,255,255,.08);
+    border-radius: 8px;
+    transition: .2s;
+}
+
+.detalle p:hover {
+    background: rgba(255,255,255,.15);
+}
+
+.detalle strong {
+    color: #ffe082;
+}
+
+.detalle::-webkit-scrollbar {
+    width: 8px;
+}
+
+.detalle::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,.35);
+    border-radius: 10px;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-image: url("https://wallpapercave.com/wp/wp12103561.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.35);
+
+  z-index: -1;
+}
