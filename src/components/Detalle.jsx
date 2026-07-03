@@ -5,7 +5,7 @@ export default function Detalle({ elemento }) {
   return (
     <article
       className="detalle"
-      style={{ backgroundColor: obtenerColor(elemento.categoria) }}
+      
     >
       <h2>{elemento.nombre}</h2>
 

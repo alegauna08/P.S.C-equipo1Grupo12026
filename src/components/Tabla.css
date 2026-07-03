@@ -1,3 +1,4 @@
+/*CSS de la tabla periódica */
 .tabla-periodica {
   display: grid;
   grid-template-columns: repeat(18, 80px);
