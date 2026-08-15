@@ -1,13 +1,14 @@
 import "../App.css";
 import { obtenerColor } from "../utils/categoria";
 
-export default function Detalle({ elemento }) {
+export default function Detalle({ elemento , cerrar}) {
   return (
-    <article
+    <aside
       className="detalle"
-      
+      style={{ backgroundColor: obtenerColor(elemento.categoria) }}
     >
       <h2>{elemento.nombre}</h2>
+      <button onClick={cerrar}>X</button>
 
       <p><strong>Símbolo:</strong> {elemento.simbolo}</p>
       <p><strong>Número atómico:</strong> {elemento.numero}</p>
@@ -22,6 +23,6 @@ export default function Detalle({ elemento }) {
       <p><strong>Punto de ebullición:</strong> {elemento.ebullicion} °C</p>
       <p><strong>Densidad:</strong> {elemento.densidad} g/cm³</p>
       <p><strong>Año de descubrimiento:</strong> {elemento.descubrimiento}</p>
-    </article>
+    </aside>
   );
 }
