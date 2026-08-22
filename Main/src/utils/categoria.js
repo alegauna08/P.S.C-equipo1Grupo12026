@@ -14,13 +14,11 @@ export function obtenerColor(categoria) {
 
     case "Metal de transición":
       return "#5a695f"; 
-
+      
     case "Lantánido":
-    case "Lantanido":
       return "#8677aa"; 
 
     case "Actínido":
-    case "Actinido":
       return "#a855f7"; 
 
     case "Metaloide":
@@ -28,10 +26,9 @@ export function obtenerColor(categoria) {
 
     case "Halógeno":
       return "#b46565";
-
+      
     case "Post-transición":
-    case "Post-transicion":
-      return "#94a3b8";
+      return "#81D4FA";
 
     default:
       return "#b881a1";
