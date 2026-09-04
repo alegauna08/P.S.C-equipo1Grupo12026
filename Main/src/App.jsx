@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import elementos from "./data/elementos";
+import elementos from "../data/elementos";
 import Tabla from "./components/Tabla";
 import Detalle from "./components/Detalle";
 import "./App.css";
