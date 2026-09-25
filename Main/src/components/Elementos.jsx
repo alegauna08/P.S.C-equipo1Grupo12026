@@ -1,4 +1,3 @@
-import elementos from "../data/elementos";
 import { obtenerColor } from "../utils/categoria";
 import "../App.css"
 
