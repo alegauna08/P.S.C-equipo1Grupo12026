@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import elementos from "./data/Elementos.js";
-import Tabla from "./components/Tabla.jsx";
-import Detalle from "./components/Detalle.jsx";
+import Tabla from "./components/Tabla";
+import Detalle from "./components/Detalle";
 import "./App.css";
 
 export default function App() {

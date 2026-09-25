@@ -8,7 +8,7 @@ export default function Detalle({ elemento , cerrar}) {
       style={{ backgroundColor: obtenerColor(elemento.categoria) }}
     >
       <h2>{elemento.nombre}</h2>
-      <button onClick={cerrar}>X</button>
+      <button  className="cerrar" onClick={cerrar}>X</button>
 
       <p><strong>Símbolo:</strong> {elemento.simbolo}</p>
       <p><strong>Número atómico:</strong> {elemento.numero}</p>
