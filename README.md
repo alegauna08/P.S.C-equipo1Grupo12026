@@ -1,43 +1,53 @@
 # Tabla Periódica Dinámica
 
-## Descripción
+## ¿Qué es?
 
-Tabla Periódica Dinámica es una aplicación web interactiva desarrollada para facilitar la consulta de los elementos químicos.
+Hicimos una página web de una **tabla periódica**, pero un poco más interactiva que la normal.
 
-La página muestra los 118 elementos de la tabla periódica organizados según su posición correspondiente. El usuario puede seleccionar un elemento para consultar información sobre él.
+La página tiene los **118 elementos químicos** acomodados en su lugar correspondiente. Si hacemos clic en uno de los elementos, nos muestra información sobre ese elemento.
 
-## Objetivo
+La idea era hacer algo sencillo, que se pueda usar fácil y que sea más entretenido que mirar una tabla periódica normal.
 
-Crear una herramienta web sencilla, visual e interactiva que permita consultar los elementos químicos de una manera más dinámica que una tabla periódica tradicional.
+## ¿Para qué la hicimos?
 
-## Tecnologías utilizadas
+La hicimos principalmente para poder **ver y buscar información de los elementos químicos de una forma más rápida**.
 
-- React
-- Vite
-- JavaScript
-- HTML
-- CSS
-- Git
-- GitHub
+Por ejemplo, si queremos saber algo sobre el oxígeno, buscamos el elemento en la tabla, hacemos clic y podemos ver sus datos.
 
-## Instalación
+## ¿Con qué la hicimos?
 
-Primero instalar las dependencias:
+Para hacer la página usamos:
+
+* React
+* Vite
+* JavaScript
+* HTML
+* CSS
+* Git
+* GitHub
+
+## ¿Cómo se instala?
+
+Primero tenemos que abrir la terminal en la carpeta del proyecto y poner:
 
 ```bash
 npm install
 ```
-## Ejecución
 
-Para iniciar el proyecto:
+Esperamos a que termine de instalar todo y después ya podemos ejecutar la página.
+
+## ¿Cómo se abre?
+
+Para iniciar el proyecto ponemos:
+
 ```bash
 npm run dev
 ```
-Luego abrir en el navegador la dirección indicada por Vite.
+
+Después nos aparece un link de Vite. Lo abrimos en el navegador y ahí está la página funcionando.
 
 ## Integrantes
-Axel Inclan
 
-German Fredes
-
-Alejandro Gauna
+* Axel Inclan
+* German Fredes
+* Alejandro Gauna
