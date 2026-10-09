@@ -35,11 +35,11 @@ Incluye:
 - Guía de despliegue.
 - Links importantes.
 
-## Integrantes
+## Integrantes.  (usuarios en git)
 
-- Axel Inclan
-- German Fredes
-- Alejandro Gauna
+- Axel Inclan. (inclanA)
+- German Fredes. (German Fredes)
+- Alejandro Gauna.  (alegauna08)
 
 ## Tecnologías
 
